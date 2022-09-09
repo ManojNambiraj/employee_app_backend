@@ -133,6 +133,6 @@ app.delete("/delete/:id", async function (req, res) {
   }
 });
 
-app.listen(process.env.port || 5000, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log("Server is running at PORT: 5000");
 });
